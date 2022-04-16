@@ -1,7 +1,7 @@
 [NEAT]
 fitness_criterion     = max
 fitness_threshold     = 100
-pop_size              = 50
+pop_size              = 20
 reset_on_extinction   = False
 
 [DefaultGenome]
@@ -49,7 +49,7 @@ num_inputs              = 3
 num_outputs             = 1
 
 # node response options
-response_init_mean      = 1.0
+response_init_mean      = 0.7
 response_init_stdev     = 0.0
 response_max_value      = 30.0
 response_min_value      = -30.0
@@ -71,7 +71,7 @@ compatibility_threshold = 3.0
 
 [DefaultStagnation]
 species_fitness_func = max
-max_stagnation       = 20
+max_stagnation       = 10
 species_elitism      = 2
 
 [DefaultReproduction]
